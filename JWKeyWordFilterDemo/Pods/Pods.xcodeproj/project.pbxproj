@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00851655123251720C32DB6A96E032AD /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */; };
+		0BB2A82DD90E4BB6CC4973CFE4153077 /* JWKeywordFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeywordFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8DF98BAEFC4CECCC9C7773938F071D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		308A25E8E2F98BA1731623ADD14E3EE3 /* NSString+keyWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B038C660A345D9E2416165F84E8002 /* NSString+keyWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47990E7D05E03607CC7C55AD2608048D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		55086CF694A1C1E5469E0DDA760D41CB /* JWKeyWordFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */; };
+		86CF106E8E3E907954DBED0AD225C1FB /* aho_corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86DF0B84F752CFE2D3320912E79637EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		AC87EC5FD39B1EF36F5C1D0A4446B760 /* NSString+keyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+keyWord.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7CE3B23D373E39D6DCAF4A2605EC632 /* JWKeywordFilterManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeywordFilterManager.mm */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38647FF683554439EBA81FED1440F700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE57023A71407267A311C49DAB02B613;
+			remoteInfo = JWKeyWordFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWKeyWordFilter.xcconfig; sourceTree = "<group>"; };
+		0F32578167C52E461E94B963BD4A9E4A /* Pods-JWKeyWordFilterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWKeyWordFilterDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWKeyWordFilter-dummy.m"; sourceTree = "<group>"; };
+		2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+keyWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+keyWord.m"; sourceTree = "<group>"; };
+		57B038C660A345D9E2416165F84E8002 /* NSString+keyWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+keyWord.h"; sourceTree = "<group>"; };
+		6971C376456569FEF5E3A8A7042FD539 /* Pods-JWKeyWordFilterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWKeyWordFilterDemo-resources.sh"; sourceTree = "<group>"; };
+		6D55158F688CC5F0D9AB2D6F518D5E30 /* Pods-JWKeyWordFilterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWKeyWordFilterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeywordFilterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JWKeywordFilterManager.h; sourceTree = "<group>"; };
+		848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeywordFilterManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = JWKeywordFilterManager.mm; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942A5EF9C8C32EBF12BBD87EC0F57FB2 /* Pods-JWKeyWordFilterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWKeyWordFilterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJWKeyWordFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aho_corasick.h; sourceTree = "<group>"; };
+		B86FD96FFB6A63F9B867B10303EA00A1 /* JWKeyWordFilter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWKeyWordFilter-prefix.pch"; sourceTree = "<group>"; };
+		B8F05AB286992FF2977D11C05616BD84 /* Pods-JWKeyWordFilterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWKeyWordFilterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWKeyWordFilterDemo-dummy.m"; sourceTree = "<group>"; };
+		E3D4976857FD209CFEBF006FCDF2976A /* Pods-JWKeyWordFilterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWKeyWordFilterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWKeyWordFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B020FE74309A0CE2EB28B88FF2642BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DF0B84F752CFE2D3320912E79637EF /* Foundation.framework in Frameworks */,
+				1C8DF98BAEFC4CECCC9C7773938F071D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE222A6F7641E3A647AF035DE0105BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47990E7D05E03607CC7C55AD2608048D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED6748F9F457DA2BAD2D35E1153270D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */,
+				E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57FA887B42276504FE2083D801A48DC3 /* Pods-JWKeyWordFilterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				942A5EF9C8C32EBF12BBD87EC0F57FB2 /* Pods-JWKeyWordFilterDemo-acknowledgements.markdown */,
+				6D55158F688CC5F0D9AB2D6F518D5E30 /* Pods-JWKeyWordFilterDemo-acknowledgements.plist */,
+				D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */,
+				0F32578167C52E461E94B963BD4A9E4A /* Pods-JWKeyWordFilterDemo-frameworks.sh */,
+				6971C376456569FEF5E3A8A7042FD539 /* Pods-JWKeyWordFilterDemo-resources.sh */,
+				E3D4976857FD209CFEBF006FCDF2976A /* Pods-JWKeyWordFilterDemo.debug.xcconfig */,
+				B8F05AB286992FF2977D11C05616BD84 /* Pods-JWKeyWordFilterDemo.release.xcconfig */,
+			);
+			name = "Pods-JWKeyWordFilterDemo";
+			path = "Target Support Files/Pods-JWKeyWordFilterDemo";
+			sourceTree = "<group>";
+		};
+		60B936430F5154F536EEACD4EFCD3DD6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB54E73E12524097877490C2BD4ECDE2 /* JWKeyWordFilter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				60B936430F5154F536EEACD4EFCD3DD6 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3ED6748F9F457DA2BAD2D35E1153270D /* Products */,
+				A4779B945CE978A433833217B967AE98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4779B945CE978A433833217B967AE98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FA887B42276504FE2083D801A48DC3 /* Pods-JWKeyWordFilterDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C88EC07710B461193876605BCB7D013C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */,
+				1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */,
+				B86FD96FFB6A63F9B867B10303EA00A1 /* JWKeyWordFilter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "JWKeyWordFilterDemo/Pods/Target Support Files/JWKeyWordFilter";
+			sourceTree = "<group>";
+		};
+		DA15DB15F6030BBAE8538DB88A367A13 /* JWKeyWordFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */,
+				75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeywordFilterManager.h */,
+				848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeywordFilterManager.mm */,
+				57B038C660A345D9E2416165F84E8002 /* NSString+keyWord.h */,
+				2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+keyWord.m */,
+			);
+			path = JWKeyWordFilter;
+			sourceTree = "<group>";
+		};
+		EB54E73E12524097877490C2BD4ECDE2 /* JWKeyWordFilter */ = {
+			isa = PBXGroup;
+			children = (
+				DA15DB15F6030BBAE8538DB88A367A13 /* JWKeyWordFilter */,
+				C88EC07710B461193876605BCB7D013C /* Support Files */,
+			);
+			name = JWKeyWordFilter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F802612735F0B4A86C941546C0F0A777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CF106E8E3E907954DBED0AD225C1FB /* aho_corasick.h in Headers */,
+				0BB2A82DD90E4BB6CC4973CFE4153077 /* JWKeywordFilterManager.h in Headers */,
+				308A25E8E2F98BA1731623ADD14E3EE3 /* NSString+keyWord.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F75D6F97E6252897B3277AEFAB38E4C4 /* Pods-JWKeyWordFilterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D72F4C0D2FDFBAE602E166822016864 /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */;
+			buildPhases = (
+				9A655242CDC120A7A3673815CC702BB8 /* Sources */,
+				AE222A6F7641E3A647AF035DE0105BEA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42AD5CE0269A8B67DCF99F0838DFC52 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWKeyWordFilterDemo";
+			productName = "Pods-JWKeyWordFilterDemo";
+			productReference = E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC5BDDC0AE3F31B891C1FF272A87246 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */;
+			buildPhases = (
+				E6AEBB46568D78232F2B63B78A195D69 /* Sources */,
+				6B020FE74309A0CE2EB28B88FF2642BC /* Frameworks */,
+				F802612735F0B4A86C941546C0F0A777 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWKeyWordFilter;
+			productName = JWKeyWordFilter;
+			productReference = A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3ED6748F9F457DA2BAD2D35E1153270D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */,
+				F75D6F97E6252897B3277AEFAB38E4C4 /* Pods-JWKeyWordFilterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A655242CDC120A7A3673815CC702BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00851655123251720C32DB6A96E032AD /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AEBB46568D78232F2B63B78A195D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55086CF694A1C1E5469E0DDA760D41CB /* JWKeyWordFilter-dummy.m in Sources */,
+				E7CE3B23D373E39D6DCAF4A2605EC632 /* JWKeywordFilterManager.mm in Sources */,
+				AC87EC5FD39B1EF36F5C1D0A4446B760 /* NSString+keyWord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42AD5CE0269A8B67DCF99F0838DFC52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWKeyWordFilter;
+			target = FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */;
+			targetProxy = 38647FF683554439EBA81FED1440F700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		440AAFB2E2612081E57DE638382B0FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EE5406FC5B6C0EABA0DC3D0D8B7E34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D4976857FD209CFEBF006FCDF2976A /* Pods-JWKeyWordFilterDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51910A27C9AED659156372C0BB2CDF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		808EEEE528502FB3AD9E5131757B3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F05AB286992FF2977D11C05616BD84 /* Pods-JWKeyWordFilterDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D72F4C0D2FDFBAE602E166822016864 /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE5406FC5B6C0EABA0DC3D0D8B7E34D /* Debug */,
+				808EEEE528502FB3AD9E5131757B3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC5BDDC0AE3F31B891C1FF272A87246 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AAFB2E2612081E57DE638382B0FCA /* Debug */,
+				51910A27C9AED659156372C0BB2CDF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
