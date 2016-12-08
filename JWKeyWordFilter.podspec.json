@@ -1,6 +1,6 @@
 {
   "name": "JWKeyWordFilter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "summary": "the fastest way to test a string whera contain key word or replace the keyword with special string",
   "homepage": "https://github.com/upworldcjw",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/upworldcjw/JWKeyWordFilter.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": "JWKeyWordFilter/*.{h,m,mm}",
   "ios": {
