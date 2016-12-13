@@ -29,33 +29,36 @@
 - (instancetype)init{
     if (self = [super init]) {
         _lock = [[NSRecursiveLock alloc] init];
-        _trie = new aho_corasick::trie;
-        _trie->remove_overlaps();
-//        _trie->only_whole_words();
-        _trie->case_insensitive();//
+        [self buildTrie];
     }
     return self;
 }
 
-- (void)reloadKeywords:(NSArray <NSString *> *)keywords{
-    [_lock lock];
+- (void)buildTrie{
     if (_trie) {
         delete _trie;
     }
     _trie = new aho_corasick::trie;
-    _trie->case_insensitive();
-//    _trie->remove_overlaps();
-//    .only_whole_words()
+    _trie->case_insensitive();//关键字可以大消息敏感，要过滤的字符串可以大小写不明感
+    //    _trie->remove_overlaps();
+    //    .only_whole_words()
+
+}
+
+- (void)reloadKeywords:(NSArray <NSString *> *)keywords{
+    [_lock lock];
+    [self buildTrie];
     [_lock unlock];
-    
     [self insertKeyWords:keywords];
 }
 
 - (void)insertKeyWords:(NSArray <NSString *> *)keywords{
+    //这里不仅是要过滤掉相同的关键词（忽略大小写）而且是为了兼容目前关键词相同的时候目前AC算法有问题
     NSMutableSet *mutSet = [NSMutableSet new];
     for(NSString *key in keywords){
-        [mutSet addObject:[key lowercaseString]];//过滤相同的key
+        [mutSet addObject:[key lowercaseString]];//过滤相同的key.如果关键词有QQ，Qq，qq。只保留qq
     }
+    //考虑关键词数量可能过大，分页优化。（遇到过5k左右关键词）
     NSArray *wordsArray = mutSet.allObjects;
     NSInteger count = [wordsArray count];
     NSInteger perRecyleCount = 300;

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (keyWord)
-
+///如果JWKeywordFilterManager的permanent为YES则，字符串只会过滤一次
 @property (nonatomic, assign) BOOL hadFilterKeyWord;
 
 ///是否包含
