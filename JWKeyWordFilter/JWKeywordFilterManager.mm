@@ -29,6 +29,8 @@
 - (instancetype)init{
     if (self = [super init]) {
         _lock = [[NSRecursiveLock alloc] init];
+        self.insensitive = YES;
+        self.wordMatch = YES;
         [self buildTrie];
     }
     return self;
@@ -39,10 +41,13 @@
         delete _trie;
     }
     _trie = new aho_corasick::trie;
-    _trie->case_insensitive();//关键字可以大消息敏感，要过滤的字符串可以大小写不明感
-    //    _trie->remove_overlaps();
-    //    .only_whole_words()
-
+    if (self.insensitive) {
+        _trie->case_insensitive();//关键字可以大消息敏感，要过滤的字符串可以大小写不明感
+    }
+    _trie->remove_overlaps();//形如敏感词相互包含“共产”，“共产党”等
+    if (self.wordMatch) {
+        _trie->only_whole_words();//敏感词word匹配
+    }
 }
 
 - (void)reloadKeywords:(NSArray <NSString *> *)keywords{
