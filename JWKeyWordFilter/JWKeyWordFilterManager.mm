@@ -9,19 +9,19 @@
 #include "JWKeywordFilterManager.h"
 #import "aho_corasick.h"
 
-@interface JWKeywordFilterManager (){
+@interface JWKeyWordFilterManager (){
     aho_corasick::trie *_trie;
     NSRecursiveLock *_lock;
 }
 @end
 
-@implementation JWKeywordFilterManager
+@implementation JWKeyWordFilterManager
 
 + (instancetype)shareInstance{
-    static JWKeywordFilterManager *s_instance = nil;
+    static JWKeyWordFilterManager *s_instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        s_instance = [[JWKeywordFilterManager alloc] init];
+        s_instance = [[JWKeyWordFilterManager alloc] init];
     });
     return  s_instance;
 }
@@ -134,6 +134,31 @@
     }
     return isContain;
 }
+
+///string,为敏感词
+- (BOOL)isFullWordsMatch:(NSString *)string{
+    if (string.length == 0) {
+        return NO;
+    }
+    ///需要比对NSUTF8StringEncoding 的length
+    NSInteger allLength = [string lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
+    BOOL find = NO;
+    [_lock lock];
+    auto tokens = _trie->tokenise([string UTF8String]);
+    size_t len = tokens.size();
+    for (size_t i = 0; i < len; i ++) {
+        aho_corasick::token<char> d = tokens[i];
+        auto length = d.get_emit().get_keyword().length();
+        if (length > 0 && length == allLength) {
+            find = YES;
+            break;
+        }
+    }
+    [_lock unlock];
+    
+    return find;
+}
+
 
 @end
 

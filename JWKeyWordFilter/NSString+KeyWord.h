@@ -10,15 +10,18 @@
 
 @interface NSString (keyWord)
 ///如果JWKeywordFilterManager的permanent为YES则，字符串只会过滤一次
-@property (nonatomic, assign) BOOL hadFilterKeyWord;
+@property (nonatomic, assign, readonly) BOOL hadFilterKeyWord;
 
 ///是否包含
-- (BOOL)isContainsKeyWords;
+- (BOOL)jw_containsKeyWords;
 
 ///敏感词替换为***
-- (NSString *)filterKeyWords;
+- (NSString *)jw_filterKeyWords;
 
 ///将敏感词替换为指定字符串
-- (NSString *)replaceKeywordsWithString:(NSString *)str;
+- (NSString *)jw_replaceKeywordsWithString:(NSString *)str;
+
+- (BOOL)jw_fullWordMatch;
+
 
 @end

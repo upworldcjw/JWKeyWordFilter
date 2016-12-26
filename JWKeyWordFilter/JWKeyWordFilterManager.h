@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@interface JWKeywordFilterManager : NSObject
+@interface JWKeyWordFilterManager : NSObject
 //关键字是否固定，用来优化已经过滤过敏感词，之后再过滤字符串。优化用
 @property (nonatomic, assign) BOOL permanent;
 ///是否大小写敏感
@@ -31,6 +31,9 @@
 
 ///将string中的所有关键词替换为replaceStr
 - (NSString *)filter:(NSString *)string replaceKeyWordWithString:(NSString *)replaceStr;
+
+///string,为敏感词
+- (BOOL)isFullWordsMatch:(NSString *)string;
 
 @end
 

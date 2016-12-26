@@ -7,7 +7,7 @@
 //
 
 #import "NSString+keyWord.h"
-#import "JWKeywordFilterManager.h"
+#import "JWKeyWordFilterManager.h"
 #import <objc/runtime.h>
 
 static const void *kHadFilterKeyWord = &kHadFilterKeyWord;
@@ -27,29 +27,34 @@ static const void *kHadFilterKeyWord = &kHadFilterKeyWord;
 }
 
 ///是否包含
-- (BOOL)isContainsKeyWords{
-    return [[JWKeywordFilterManager shareInstance] isContainsProhibitedWords:self];
+- (BOOL)jw_containsKeyWords{
+    return [[JWKeyWordFilterManager shareInstance] isContainsProhibitedWords:self];
 }
 
 
 ///敏感词替换为***
-- (NSString *)filterKeyWords{
-    if([[JWKeywordFilterManager shareInstance] permanent]){
+- (NSString *)jw_filterKeyWords{
+    if([[JWKeyWordFilterManager shareInstance] permanent]){
         if (self.hadFilterKeyWord) {
             return self;
         }
-        NSString *filter = [[JWKeywordFilterManager shareInstance] filter:self replaceKeyWordWithString:@"***"];
+        NSString *filter = [[JWKeyWordFilterManager shareInstance] filter:self replaceKeyWordWithString:@"***"];
         filter.hadFilterKeyWord = YES;
         return filter;
     }else{
-        NSString *filter = [[JWKeywordFilterManager shareInstance] filter:self replaceKeyWordWithString:@"***"];
+        NSString *filter = [[JWKeyWordFilterManager shareInstance] filter:self replaceKeyWordWithString:@"***"];
         return filter;
     }
 }
 
-- (NSString *)replaceKeywordsWithString:(NSString *)str{
-    NSString *filter = [[JWKeywordFilterManager shareInstance] filter:self replaceKeyWordWithString:str];
+- (NSString *)jw_replaceKeywordsWithString:(NSString *)str{
+    NSString *filter = [[JWKeyWordFilterManager shareInstance] filter:self replaceKeyWordWithString:str];
     return filter;
+}
+
+
+- (BOOL)jw_fullWordMatch{
+    return [[JWKeyWordFilterManager shareInstance] isFullWordsMatch:self];
 }
 
 @end
