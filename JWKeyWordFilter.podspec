@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { 'upowrld' => '1042294579@qq.com' }
   s.source   = { :git => 'https://github.com/upworldcjw/JWKeyWordFilter.git', :tag => '0.0.5' }
   s.source_files = 'JWKeyWordFilter/*.{h,m,mm}'
+  s.public_header_files = 'JWKeyWordFilter/JWKeyWordFilterManager.h','JWKeyWordFilter/NSString+KeyWord.h'
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.ios.deployment_target = '6.0' 
   s.requires_arc = true
