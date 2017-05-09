@@ -1,5 +1,5 @@
 PODS:
-  - JWKeyWordFilter (0.0.1)
+  - JWKeyWordFilter (0.0.5)
 
 DEPENDENCIES:
   - JWKeyWordFilter (from `..`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  JWKeyWordFilter: 29fa7b376bf542c470832cc5a4c1cdfd710c4078
+  JWKeyWordFilter: e0c4db805c798cb16526a8eea9ee12dbbde48162
 
 PODFILE CHECKSUM: e208f25e8024491081709a9d0efbae8610709a85
 
-COCOAPODS: 1.1.0.rc.3
+COCOAPODS: 1.2.0

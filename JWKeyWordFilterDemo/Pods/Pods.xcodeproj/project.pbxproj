@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00851655123251720C32DB6A96E032AD /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */; };
-		0BB2A82DD90E4BB6CC4973CFE4153077 /* JWKeyWordFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeyWordFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8DF98BAEFC4CECCC9C7773938F071D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		308A25E8E2F98BA1731623ADD14E3EE3 /* NSString+KeyWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B038C660A345D9E2416165F84E8002 /* NSString+KeyWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47990E7D05E03607CC7C55AD2608048D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		55086CF694A1C1E5469E0DDA760D41CB /* JWKeyWordFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */; };
-		86CF106E8E3E907954DBED0AD225C1FB /* aho_corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86DF0B84F752CFE2D3320912E79637EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		AC87EC5FD39B1EF36F5C1D0A4446B760 /* NSString+KeyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+KeyWord.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E7CE3B23D373E39D6DCAF4A2605EC632 /* JWKeyWordFilterManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeyWordFilterManager.mm */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F56567E67AAF238E080C268E7CC2EE7 /* NSString+KeyWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7E1CEA8FF8C2F129429CBACF90ACB3 /* NSString+KeyWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10066159CB6DEA8EB5F7684C106A5918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2983B29C1C69EED07D40B8F3331977DE /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */; };
+		4DD93633FB23595C500961BE8AD5E06A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		600669EA4155FB8EB58BCC5673E2C977 /* aho_corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1A176853C1E53286C81EE8EAB1B8EC /* aho_corasick.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		606A039F6E08C50B791B93B5EDFBC3DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		9FEA95B5E873DE58B3D03A10B03BC088 /* JWKeyWordFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */; };
+		BD815CE607DC34B7DCFF30F0CE4CE29F /* JWKeyWordFilterManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BCEBE4F99FFD6CA621B96C9A6379507 /* JWKeyWordFilterManager.mm */; };
+		E0B635AD9DD282134E42FBF029601877 /* NSString+KeyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B72FBA484771085F4C490E232A55063 /* NSString+KeyWord.m */; };
+		E579487596381FDF32892E2A1BAA8FC6 /* JWKeyWordFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EA0AA7A597ECA5B7688AEFFB9AC3C6 /* JWKeyWordFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38647FF683554439EBA81FED1440F700 /* PBXContainerItemProxy */ = {
+		60F321757F38CB08EDAAF243AE890FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE57023A71407267A311C49DAB02B613;
+			remoteGlobalIDString = 8B0E21454D5DF1654B100A1635D79AAB;
 			remoteInfo = JWKeyWordFilter;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,41 +32,41 @@
 /* Begin PBXFileReference section */
 		0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWKeyWordFilter.xcconfig; sourceTree = "<group>"; };
 		0F32578167C52E461E94B963BD4A9E4A /* Pods-JWKeyWordFilterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWKeyWordFilterDemo-frameworks.sh"; sourceTree = "<group>"; };
+		16EA0AA7A597ECA5B7688AEFFB9AC3C6 /* JWKeyWordFilterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JWKeyWordFilterManager.h; sourceTree = "<group>"; };
 		1ADE75815F48DB40CBE84FF822B5D2CD /* JWKeyWordFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWKeyWordFilter-dummy.m"; sourceTree = "<group>"; };
-		2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+KeyWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+KeyWord.m"; sourceTree = "<group>"; };
-		57B038C660A345D9E2416165F84E8002 /* NSString+KeyWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+KeyWord.h"; sourceTree = "<group>"; };
+		4B72FBA484771085F4C490E232A55063 /* NSString+KeyWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+KeyWord.m"; sourceTree = "<group>"; };
+		4BCEBE4F99FFD6CA621B96C9A6379507 /* JWKeyWordFilterManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = JWKeyWordFilterManager.mm; sourceTree = "<group>"; };
+		5D1A176853C1E53286C81EE8EAB1B8EC /* aho_corasick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aho_corasick.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6971C376456569FEF5E3A8A7042FD539 /* Pods-JWKeyWordFilterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWKeyWordFilterDemo-resources.sh"; sourceTree = "<group>"; };
 		6D55158F688CC5F0D9AB2D6F518D5E30 /* Pods-JWKeyWordFilterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWKeyWordFilterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeyWordFilterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JWKeyWordFilterManager.h; sourceTree = "<group>"; };
-		848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeyWordFilterManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = JWKeyWordFilterManager.mm; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D7E1CEA8FF8C2F129429CBACF90ACB3 /* NSString+KeyWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+KeyWord.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		942A5EF9C8C32EBF12BBD87EC0F57FB2 /* Pods-JWKeyWordFilterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWKeyWordFilterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJWKeyWordFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aho_corasick.h; sourceTree = "<group>"; };
+		A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJWKeyWordFilter.a; path = libJWKeyWordFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86FD96FFB6A63F9B867B10303EA00A1 /* JWKeyWordFilter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWKeyWordFilter-prefix.pch"; sourceTree = "<group>"; };
 		B8F05AB286992FF2977D11C05616BD84 /* Pods-JWKeyWordFilterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWKeyWordFilterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D56D014BEE022B9F63886AAEDCB70C09 /* Pods-JWKeyWordFilterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWKeyWordFilterDemo-dummy.m"; sourceTree = "<group>"; };
 		E3D4976857FD209CFEBF006FCDF2976A /* Pods-JWKeyWordFilterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWKeyWordFilterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWKeyWordFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JWKeyWordFilterDemo.a"; path = "libPods-JWKeyWordFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B020FE74309A0CE2EB28B88FF2642BC /* Frameworks */ = {
+		8CF9432799DFD2CB0E10276A499DA304 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86DF0B84F752CFE2D3320912E79637EF /* Foundation.framework in Frameworks */,
-				1C8DF98BAEFC4CECCC9C7773938F071D /* UIKit.framework in Frameworks */,
+				4DD93633FB23595C500961BE8AD5E06A /* Foundation.framework in Frameworks */,
+				606A039F6E08C50B791B93B5EDFBC3DD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE222A6F7641E3A647AF035DE0105BEA /* Frameworks */ = {
+		D7720C2AEBD680BD3566626A642F297A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47990E7D05E03607CC7C55AD2608048D /* Foundation.framework in Frameworks */,
+				10066159CB6DEA8EB5F7684C106A5918 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +111,19 @@
 				EB54E73E12524097877490C2BD4ECDE2 /* JWKeyWordFilter */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		70290EAE66BF1B91B31DF72FACD6C7B5 /* JWKeyWordFilter */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A176853C1E53286C81EE8EAB1B8EC /* aho_corasick.h */,
+				16EA0AA7A597ECA5B7688AEFFB9AC3C6 /* JWKeyWordFilterManager.h */,
+				4BCEBE4F99FFD6CA621B96C9A6379507 /* JWKeyWordFilterManager.mm */,
+				8D7E1CEA8FF8C2F129429CBACF90ACB3 /* NSString+KeyWord.h */,
+				4B72FBA484771085F4C490E232A55063 /* NSString+KeyWord.m */,
+			);
+			name = JWKeyWordFilter;
+			path = JWKeyWordFilter;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -143,77 +156,48 @@
 			path = "JWKeyWordFilterDemo/Pods/Target Support Files/JWKeyWordFilter";
 			sourceTree = "<group>";
 		};
-		DA15DB15F6030BBAE8538DB88A367A13 /* JWKeyWordFilter */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B12FF09E5F3956F95D274F84EDF05E6D /* aho_corasick.h */,
-				75BB0CA18CBBAA2BCD37A9EE225EAB1A /* JWKeyWordFilterManager.h */,
-				848DDD07B1BE79FF1C9100CC9F23CD49 /* JWKeyWordFilterManager.mm */,
-				57B038C660A345D9E2416165F84E8002 /* NSString+KeyWord.h */,
-				2F50896DEE47A87BE35719B3AC9A80C7 /* NSString+KeyWord.m */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			path = JWKeyWordFilter;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		EB54E73E12524097877490C2BD4ECDE2 /* JWKeyWordFilter */ = {
 			isa = PBXGroup;
 			children = (
-				DA15DB15F6030BBAE8538DB88A367A13 /* JWKeyWordFilter */,
+				70290EAE66BF1B91B31DF72FACD6C7B5 /* JWKeyWordFilter */,
 				C88EC07710B461193876605BCB7D013C /* Support Files */,
 			);
 			name = JWKeyWordFilter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F802612735F0B4A86C941546C0F0A777 /* Headers */ = {
+		351007BFED3720CE5A4994948AFF3173 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CF106E8E3E907954DBED0AD225C1FB /* aho_corasick.h in Headers */,
-				0BB2A82DD90E4BB6CC4973CFE4153077 /* JWKeyWordFilterManager.h in Headers */,
-				308A25E8E2F98BA1731623ADD14E3EE3 /* NSString+KeyWord.h in Headers */,
+				600669EA4155FB8EB58BCC5673E2C977 /* aho_corasick.h in Headers */,
+				E579487596381FDF32892E2A1BAA8FC6 /* JWKeyWordFilterManager.h in Headers */,
+				0F56567E67AAF238E080C268E7CC2EE7 /* NSString+KeyWord.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F75D6F97E6252897B3277AEFAB38E4C4 /* Pods-JWKeyWordFilterDemo */ = {
+		8B0E21454D5DF1654B100A1635D79AAB /* JWKeyWordFilter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D72F4C0D2FDFBAE602E166822016864 /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */;
+			buildConfigurationList = 1E369A6A4FEAC17FA00114A0C388B7B6 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */;
 			buildPhases = (
-				9A655242CDC120A7A3673815CC702BB8 /* Sources */,
-				AE222A6F7641E3A647AF035DE0105BEA /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C42AD5CE0269A8B67DCF99F0838DFC52 /* PBXTargetDependency */,
-			);
-			name = "Pods-JWKeyWordFilterDemo";
-			productName = "Pods-JWKeyWordFilterDemo";
-			productReference = E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC5BDDC0AE3F31B891C1FF272A87246 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */;
-			buildPhases = (
-				E6AEBB46568D78232F2B63B78A195D69 /* Sources */,
-				6B020FE74309A0CE2EB28B88FF2642BC /* Frameworks */,
-				F802612735F0B4A86C941546C0F0A777 /* Headers */,
+				8C7B977091AA1845F5B47F94F2204BD7 /* Sources */,
+				8CF9432799DFD2CB0E10276A499DA304 /* Frameworks */,
+				351007BFED3720CE5A4994948AFF3173 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -222,6 +206,23 @@
 			name = JWKeyWordFilter;
 			productName = JWKeyWordFilter;
 			productReference = A4E3AAC3424455D3877F49BCEBF9061B /* libJWKeyWordFilter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B9D756417E95327710AB82E2FC9ABBCD /* Pods-JWKeyWordFilterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972F2A2661672EBFE2C5AF2FE823C01F /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */;
+			buildPhases = (
+				24B15C796545252856631D3D21616648 /* Sources */,
+				D7720C2AEBD680BD3566626A642F297A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879F19993EF1D0D977DE0451E60E2FF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWKeyWordFilterDemo";
+			productName = "Pods-JWKeyWordFilterDemo";
+			productReference = E6F41E0660EA52C700F207B109ABB43A /* libPods-JWKeyWordFilterDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -245,39 +246,39 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */,
-				F75D6F97E6252897B3277AEFAB38E4C4 /* Pods-JWKeyWordFilterDemo */,
+				8B0E21454D5DF1654B100A1635D79AAB /* JWKeyWordFilter */,
+				B9D756417E95327710AB82E2FC9ABBCD /* Pods-JWKeyWordFilterDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A655242CDC120A7A3673815CC702BB8 /* Sources */ = {
+		24B15C796545252856631D3D21616648 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00851655123251720C32DB6A96E032AD /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */,
+				2983B29C1C69EED07D40B8F3331977DE /* Pods-JWKeyWordFilterDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6AEBB46568D78232F2B63B78A195D69 /* Sources */ = {
+		8C7B977091AA1845F5B47F94F2204BD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55086CF694A1C1E5469E0DDA760D41CB /* JWKeyWordFilter-dummy.m in Sources */,
-				E7CE3B23D373E39D6DCAF4A2605EC632 /* JWKeyWordFilterManager.mm in Sources */,
-				AC87EC5FD39B1EF36F5C1D0A4446B760 /* NSString+KeyWord.m in Sources */,
+				9FEA95B5E873DE58B3D03A10B03BC088 /* JWKeyWordFilter-dummy.m in Sources */,
+				BD815CE607DC34B7DCFF30F0CE4CE29F /* JWKeyWordFilterManager.mm in Sources */,
+				E0B635AD9DD282134E42FBF029601877 /* NSString+KeyWord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C42AD5CE0269A8B67DCF99F0838DFC52 /* PBXTargetDependency */ = {
+		879F19993EF1D0D977DE0451E60E2FF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JWKeyWordFilter;
-			target = FE57023A71407267A311C49DAB02B613 /* JWKeyWordFilter */;
-			targetProxy = 38647FF683554439EBA81FED1440F700 /* PBXContainerItemProxy */;
+			target = 8B0E21454D5DF1654B100A1635D79AAB /* JWKeyWordFilter */;
+			targetProxy = 60F321757F38CB08EDAAF243AE890FD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -326,30 +327,7 @@
 			};
 			name = Debug;
 		};
-		440AAFB2E2612081E57DE638382B0FCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4EE5406FC5B6C0EABA0DC3D0D8B7E34D /* Debug */ = {
+		1563BD2294DFA1A658152686EB5668B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3D4976857FD209CFEBF006FCDF2976A /* Pods-JWKeyWordFilterDemo.debug.xcconfig */;
 			buildSettings = {
@@ -372,30 +350,7 @@
 			};
 			name = Debug;
 		};
-		51910A27C9AED659156372C0BB2CDF00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		808EEEE528502FB3AD9E5131757B3189 /* Release */ = {
+		488B5DE5DAF8D2CD3626BEA506B2CA64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8F05AB286992FF2977D11C05616BD84 /* Pods-JWKeyWordFilterDemo.release.xcconfig */;
 			buildSettings = {
@@ -417,6 +372,52 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		4E40188512EC97B0733A22FFF7810920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3EAC2C2DE75160FB6608975BD52A815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFEBC67037EDF32B219E2F10AE9ED43 /* JWKeyWordFilter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWKeyWordFilter/JWKeyWordFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -461,20 +462,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D72F4C0D2FDFBAE602E166822016864 /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */ = {
+		1E369A6A4FEAC17FA00114A0C388B7B6 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EE5406FC5B6C0EABA0DC3D0D8B7E34D /* Debug */,
-				808EEEE528502FB3AD9E5131757B3189 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AC5BDDC0AE3F31B891C1FF272A87246 /* Build configuration list for PBXNativeTarget "JWKeyWordFilter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				440AAFB2E2612081E57DE638382B0FCA /* Debug */,
-				51910A27C9AED659156372C0BB2CDF00 /* Release */,
+				A3EAC2C2DE75160FB6608975BD52A815 /* Debug */,
+				4E40188512EC97B0733A22FFF7810920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -484,6 +476,15 @@
 			buildConfigurations = (
 				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
 				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972F2A2661672EBFE2C5AF2FE823C01F /* Build configuration list for PBXNativeTarget "Pods-JWKeyWordFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1563BD2294DFA1A658152686EB5668B5 /* Debug */,
+				488B5DE5DAF8D2CD3626BEA506B2CA64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
