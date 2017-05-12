@@ -1,12 +1,12 @@
 //
-//  JWKeywordFilterManager.m
+//  JWKeyWordFilterManager.m
 //  JWKeyWordFilter
 //
 //  Created by jianwei on 12/07/16.
 //  Copyright © 2016 AsiaInnovations. All rights reserved.
 //
 
-#include "JWKeywordFilterManager.h"
+#include "JWKeyWordFilterManager.h"
 #import "aho_corasick.h"
 
 @interface JWKeyWordFilterManager (){

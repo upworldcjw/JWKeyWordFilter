@@ -6,13 +6,13 @@
 //  Copyright © 2016 AsiaInnovations. All rights reserved.
 //
 
-#import "NSString+keyWord.h"
+#import "NSString+KeyWord.h"
 #import "JWKeyWordFilterManager.h"
 #import <objc/runtime.h>
 
 static const void *kHadFilterKeyWord = &kHadFilterKeyWord;
 
-@implementation NSString (keyWord)
+@implementation NSString (KeyWord)
 
 - (void)setHadFilterKeyWord:(BOOL)hadFilterKeyWord{
     objc_setAssociatedObject(self, kHadFilterKeyWord, @(hadFilterKeyWord), OBJC_ASSOCIATION_RETAIN);

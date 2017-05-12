@@ -1,5 +1,5 @@
 //
-//  JWKeywordFilterManager.h
+//  JWKeyWordFilterManager.h
 //  JWKeyWordFilter
 //
 //  Created by jianwei on 12/07/16.
