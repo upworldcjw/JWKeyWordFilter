@@ -1,5 +1,5 @@
 //
-//  NSString+keyWord.h
+//  NSString+KeyWord.h
 //  JWKeyWordFilter
 //
 //  Created by jianwei on 12/07/16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (keyWord)
+@interface NSString (KeyWord)
 ///如果JWKeywordFilterManager的permanent为YES则，字符串只会过滤一次
 @property (nonatomic, assign, readonly) BOOL hadFilterKeyWord;
 
