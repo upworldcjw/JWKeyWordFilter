@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC5FF5D41EC5A38B000676A0 /* aho_corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5CF1EC5A38B000676A0 /* aho_corasick.h */; };
-		FC5FF5D51EC5A38B000676A0 /* JWKeyWordFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5D01EC5A38B000676A0 /* JWKeyWordFilterManager.h */; };
+		FC5FF5D41EC5A38B000676A0 /* aho_corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5CF1EC5A38B000676A0 /* aho_corasick.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC5FF5D51EC5A38B000676A0 /* JWKeyWordFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5D01EC5A38B000676A0 /* JWKeyWordFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC5FF5D61EC5A38B000676A0 /* JWKeyWordFilterManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC5FF5D11EC5A38B000676A0 /* JWKeyWordFilterManager.mm */; };
-		FC5FF5D71EC5A38B000676A0 /* NSString+KeyWord.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5D21EC5A38B000676A0 /* NSString+KeyWord.h */; };
+		FC5FF5D71EC5A38B000676A0 /* NSString+KeyWord.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5FF5D21EC5A38B000676A0 /* NSString+KeyWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC5FF5D81EC5A38B000676A0 /* NSString+KeyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5FF5D31EC5A38B000676A0 /* NSString+KeyWord.m */; };
 		FC5FF5DA1EC5A3B5000676A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5FF5D91EC5A3B5000676A0 /* Info.plist */; };
 /* End PBXBuildFile section */
@@ -74,8 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC5FF5D71EC5A38B000676A0 /* NSString+KeyWord.h in Headers */,
-				FC5FF5D41EC5A38B000676A0 /* aho_corasick.h in Headers */,
 				FC5FF5D51EC5A38B000676A0 /* JWKeyWordFilterManager.h in Headers */,
+				FC5FF5D41EC5A38B000676A0 /* aho_corasick.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
